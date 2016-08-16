@@ -1,0 +1,82 @@
+body {
+	position: relative;
+  	height: 100%;
+  	width: 100%;
+/*	overflow: hidden;*/
+  	background-color: #34495e;
+}
+img {
+  position: absolute;
+}
+h1 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  margin-top: 150px;
+  line-height: 100px;
+  font-size: 100px;
+  color: aqua;
+}
+button:hover {
+  box-shadow: none;
+  color: #2ecc71;
+  margin-bottom: 0px;
+}
+button {
+  font-family: 'Indie Flower', cursive;
+  float: left;
+  margin: 30px 40px 0 80px;
+  font-weight: 800;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 20px;
+  border: none;
+}
+.sky {
+	position: fixed;
+	background-image: url("../images/cloud_2.gif");
+	height: 355px;
+	width: 100%;
+	margin-left: -8px;
+	margin-top: -8px;
+	display: none;
+}
+.grass {
+	position: fixed;
+	background-image: url("../images/grass.png");
+	height: 450px;
+	width: 100%;
+	bottom: 0;
+	margin-left: -8px;
+	display: none;
+}
+.fa-play-circle:hover {
+  box-shadow: none;
+  color: #2ecc71;
+  margin-top: 5px;
+  margin-bottom: 0px; 
+}
+.sun {
+	background-color: #FFFA00;
+}
+.plant {
+	background-color: #754D11;
+}
+.farm {
+	background-color: #e74c3c;
+}
+.farm2 {
+  background-color: #AC41DF;
+  display: none;
+}
+.farm3 {
+  background-color: #3498db;
+  display: none;
+}
+.character {
+  position: absolute;
+}
