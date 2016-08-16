@@ -1,0 +1,26 @@
+body{
+	background-image: url("../images/cloud_2.gif");
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+#grass{
+	background-color: green;
+	height: 30%;
+	width: 100%;
+	position: absolute;
+    top: 70%;  
+}
+
+h1{
+	font-family: 'Kaushan Script', cursive;
+	margin-left: 5%;
+	margin-top: 10%;
+	text-transform: uppercase;
+	position: absolute;
+}
+
+.character{
+	position: absolute;
+}
