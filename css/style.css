@@ -1,0 +1,32 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	background-image: url("../images/cloud_2.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	position: relative;
+}
+
+div {
+	background-color: green;
+	height: 200px;
+	width: 100%;
+	position: fixed;
+	top: 80%;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+	color: #c0392b;
+	margin: 0;
+	padding: 20px;
+}
+
+.farm {
+	position: absolute;
+}
