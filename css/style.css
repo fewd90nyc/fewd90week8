@@ -1,0 +1,99 @@
+body{
+	font-family: 'Slabo 27px', serif;
+	font-size:12px;
+}
+
+/*sky*/
+#sky{
+	position:absolute;
+	top:0;
+	right:0;
+	width:100%;
+	height:60%;
+	background-image:url("../images/cloud_2.gif");
+}
+
+#sun{
+	display:block;
+}
+
+#sun p{
+	display:block;
+	float:left;
+	font-size:2em;
+	line-height:130px;
+	height:130px;
+	margin:0;
+}
+
+#sun img{
+	float:left;
+}
+
+/*grass*/
+#grass{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	height:40%;
+	background-color:green;
+	background-image:url("../images/1195427467858604967PeterM_Tree.png");
+	background-size:80px 100px;
+}
+
+/*title*/
+#start{
+	font-size:5vw;
+	position:absolute;
+	top:40%;
+	left:40%;
+}
+
+
+
+/*animals*/
+#horse{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#dancingcow{
+	display:none;
+}
+
+#flyingpig{
+	display:none;
+	position:absolute;
+	bottom:0;
+	right:10%;
+}
+
+#roosterdance{
+	display:none;
+	position:absolute;
+	bottom:0;
+	left:10%;
+}
+
+#cow{
+	display:none;
+	position:absolute;
+	bottom:20%;
+	right:50%;
+}
+
+#lamb{
+	display:none;
+	position:absolute;
+	bottom:60%;
+	right:10%;
+}
+
+#pig{
+	display:none;
+	position:absolute;
+	bottom:90%;
+	right:70%;
+}
