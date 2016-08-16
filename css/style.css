@@ -1,0 +1,74 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/cloud_2.gif");
+}
+h1{
+	font-family: "lobster";
+	text-align: center;
+	font-size: 50px;
+}
+h2{
+  font-family: "lobster";
+  text-align: center;
+  font-size: 50px;
+  display: none;
+}
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  background-color: green;
+  text-align: center;
+}
+.character {
+  position: absolute;
+}
+.box1{
+	position: absolute;
+    left: 75%;
+    bottom: 60%;
+    width: 300px;
+}
+.box2{
+	position: absolute;
+    right: 75%;
+    top: 50%;
+}
+.box3{
+	position: absolute;
+    right: 90%;
+    top: 74%;	
+}
+.box5{
+	position: absolute;
+    right: 60%;
+    top: 50%;	
+}
+.box4{
+	position: absolute;
+    right: 37%;
+    top: 80.5%;
+}
+.box6{
+	position: absolute;
+    right: 20%;
+    top: 63%;
+}
+.box7{
+	position: absolute;
+    right: 48%;
+    top: 69%;
+}
+.box8{
+	position: absolute;
+    right: 7%;
+    top: 77%;
+}
+.box9{
+	position: absolute;
+    right: 60%;
+    top: 0%;
+}
