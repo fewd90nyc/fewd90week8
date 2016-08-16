@@ -30,6 +30,13 @@ body{
 	float:left;
 }
 
+#tree{
+	position:absolute;
+	bottom:-5%;
+	right:5%;
+	z-index:2;
+}
+
 /*grass*/
 #grass{
 	position:absolute;
@@ -38,9 +45,8 @@ body{
 	width:100%;
 	height:40%;
 	background-color:green;
-	background-image:url("../images/1195427467858604967PeterM_Tree.png");
-	background-size:80px 100px;
 }
+
 
 /*title*/
 #start{
