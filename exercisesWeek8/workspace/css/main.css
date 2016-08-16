@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+header {
+  margin-bottom: 1.5em;
+}
+
+nav {
+  background-color: #0fa1a5;
+  overflow: hidden;
+}
+
+nav a {
+  color: #eeeeee;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: .25em 0;
+  display: none;
+}
+
+#mobile {
+  display: block;
+  font-size: 1.5em;
+}
+
+nav.open a {
+  display: block;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  padding: .25em 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 0 .5em;
+}
+
+h3 {
+  display: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  background-color: #0fa1a5;
+  color: #eeeeee;
+  text-align: center;
+  padding: 2em;
+}
+
+#work {
+  color: #0fa1a5;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+#space {
+  font-weight: 100;
+  font-style: italic;
+  font-family: Georgia, serif;
+  color: #333333;
+}
+
+#overlay-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#overlay {
+  width: 75%;
+  height: 75%;
+  padding: 2.5%;
+  background-color: #0fa1a5;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  color: #ffffff;
+  text-align: center;
+}
+
+#overlay h4 {
+  font-weight: 100;
+  font-style: italic;
+  font-family: Georgia, serif;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  font-size: 2em;
+}
+
+#overlay input, #overlay button {
+  padding: .5em;
+  margin: .5em;
+}
+
+
+@media only screen and (min-width: 600px){
+  img{ 
+  width:50%;
+  float:left;
+   }
+  footer{
+    clear: both;
+}
+}
+@media only screen and(min-width: 800px){
+  body{
+    font-size: 22px;
+  }
+  #mobile{
+    display:none;
+  }
+  nav a{
+    display: block;
+    width: 25%;
+    float:left;
+
+  }
+  h3{
+    display:block;
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color:#ddd;
+    text-align: center;
+
+  }
+}
+@media only screen and (min-width: 1150px){
+  body{font-size: 24px
+  }
+  img{
+    width: 33.333333%;
+  }
+}
+@media only screen and (min-width: 1500px){
+  img{
+    width:25%;
+  }
+  section{
+    width:1500px;
+    margin:0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

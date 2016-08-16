@@ -1,0 +1,14 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+#wrapper {
+	width: 540px; 
+	margin: 0 auto; 
+	position: relative;
+}
+
+#wrapper a {
+	position: absolute;
+}
