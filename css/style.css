@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 14px;
+	font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 6em;
+	color: yellow;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 1em;
+	font-size: 3em;
+	color: blue;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 1em;
+	font-size: 1em;
+	color: blue;
+}
+
+#grass {
+	background-color: green;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#background {
+	background-image: url("../images/cloud_2.gif");
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+
+}
+
+#sun {
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5%;
+	left: 20%;
+	z-index: 1;
+}
+
+#farm1 {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	z-index: 2;
+}
+
+#guy {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 40%;
+	z-index: 2;
+}
+
+.cow41 {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 60%;
+	z-index: 2;
+}
+
+/*#dancingcow {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 80%;
+	z-index: 1;
+}
+*/
+
+#lamb {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 80%;
+	z-index: 2;
+}
+
+#crazyrooster {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 85%;
+	z-index: 2;
+}
+
+.piggy {
+	background-image: url("../images/varken.gif");
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	z-index: 2;
+}
+
+.horse {
+	background-image: url("../images/horse.gif");
+	background-size: cover;
+	position: absolute;
+	height: 107px;
+	width: 177px;
+	bottom: 5%;
+	left: 20%;
+	z-index: 2;
+}
+
+#tree {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 85%;
+	z-index: 1;
+}
+
+#tree2 {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	z-index: 1;
+}
+
+#tree3 {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 20%;
+	z-index: 1;
+}
