@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	width: auto;
+}
+
+h1 {
+  font-family: "Permanent Marker", Georgia, sans-serif;
+  font-size: 60px;
+  float: left;
+  color: red;
+}
+
+#cloud {
+	height: 500px;
+    background:transparent url("../images/cloud_2.gif") center center no-repeat;
+    background-size: cover;
+	padding: 3%;
+
+   }
+
+#grass {
+	height: 100px;
+	width: auto;
+	background: green;
+}
+
+
+
