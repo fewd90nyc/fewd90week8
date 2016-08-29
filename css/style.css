@@ -1,0 +1,72 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background: #fff url("../images/cloud_2.gif") repeat;
+	height:400px;
+	width:100%;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Fascinate Inline', cursive;
+	font-size: 50px;
+	margin-top: 25px;
+}
+
+img {
+  position: fixed;
+}
+
+#sun {
+	top:25px;
+	left:25px;
+}
+
+#dancingcow {
+	bottom:40px;
+	left:0px;
+}
+
+#tree {
+	bottom:80px;
+	left:75%;
+}
+
+#rooster {
+	bottom:80px;
+	left:70%;
+}
+
+#tambourine {
+	bottom:80px;
+	left:65%;
+}
+
+#tappingrooster {
+	bottom:80px;
+	left:90%;
+}
+
+#cow {
+	bottom:60px;
+	left:20%;
+}
+
+#man {
+	bottom:80px;
+	left:45%;
+}
+#pig {
+	bottom:80px;
+	left:50%;
+}
+footer {
+	background-color:green;
+	height:100px;
+	width:100%;
+	position: absolute;
+    bottom: 0px;
+}
